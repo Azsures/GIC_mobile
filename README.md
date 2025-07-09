@@ -85,7 +85,7 @@ lib/
 ## 6. Próximos Passos (Future Work)
 
 * Implementar as telas de "Verificar Clientes", "Realizar Venda" e "Emitir Relatórios".
-* Integrar um banco de dados local (como SQLite ou Hive) para persistência de dados.
+* Integração com API remota em Python para salvamento e sincronização de dados com aplicação desktop.
 * Adicionar animações para uma experiência de usuário mais fluida.
 * Criar testes unitários e de widgets para garantir a qualidade do código.
 
