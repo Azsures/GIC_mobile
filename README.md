@@ -1,11 +1,11 @@
 # GIC - Gerenciador Inteligente de Clientes
 
-**Versão:** 0.0.0
+**Versão:** 1.0.0
 **Data:** 08 de Julho de 2025
 
 ## 1. Descrição
 
-O GIC (Gerenciador Inteligente de Clientes) é um aplicativo móvel desenvolvido em Flutter, projetado para oferecer uma solução simples e eficiente para o gerenciamento de clientes. O projeto serve como um exemplo prático da implementação da arquitetura **MVC (Model-View-Controller)** em Flutter, garantindo um código organizado, escalável e de fácil manutenção. O aplicativo se comunicará com uma API remota para salvamento e sincronização de dados em nuvem.
+O GIC (Gerenciador Inteligente de Clientes) é um aplicativo móvel desenvolvido em Flutter, projetado para oferecer uma solução simples e eficiente para o gerenciamento de clientes. O projeto serve como um exemplo prático da implementação da arquitetura **MVC (Model-View-Controller)** em Flutter, garantindo um código organizado, escalável e de fácil manutenção.
 
 ## 2. Funcionalidades Implementadas
 
@@ -68,7 +68,7 @@ lib/
 
 1.  **Clone o repositório:**
     ```sh
-    git clone https://github.com/Azsures/GIC_mobile/
+    git clone <URL_DO_SEU_REPOSITORIO>
     cd gic-app
     ```
 
@@ -85,7 +85,7 @@ lib/
 ## 6. Próximos Passos (Future Work)
 
 * Implementar as telas de "Verificar Clientes", "Realizar Venda" e "Emitir Relatórios".
-* Integração com API remota em Python para salvamento e sincronização de dados com aplicação desktop.
+* Integrar um banco de dados local (como SQLite ou Hive) para persistência de dados.
 * Adicionar animações para uma experiência de usuário mais fluida.
 * Criar testes unitários e de widgets para garantir a qualidade do código.
 
