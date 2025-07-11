@@ -26,8 +26,7 @@ class GICApp extends StatelessWidget {
           // Define the light theme
           theme: ThemeData(
             brightness: Brightness.light,
-            primarySwatch: Colors.indigo,
-
+            primarySwatch: Colors.blue,
             scaffoldBackgroundColor: Colors.grey[100],
             cardColor: Colors.white,
             //useMaterial3: true
@@ -35,8 +34,7 @@ class GICApp extends StatelessWidget {
           // Define the dark theme
           darkTheme: ThemeData(
             brightness: Brightness.dark,
-            primarySwatch: Colors.teal,
-
+            primarySwatch: Colors.cyan,
             scaffoldBackgroundColor: const Color(0xFF121212),
             cardColor: const Color(0xFF1E1E1E),
             //useMaterial3: true,

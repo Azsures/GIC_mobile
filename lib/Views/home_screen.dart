@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../main.dart'; // Import to access the themeNotifier
 import 'register_client_view.dart';
+import 'consult_data_client_list.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,7 +21,7 @@ class HomeScreen extends StatelessWidget {
           onPressed: () => scaffoldKey.currentState?.openDrawer(),
           tooltip: 'Abrir menu',
         ),
-        title: const Text('GIC'),
+        title: const Text('GIC',style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
         // 'actions' are the widgets on the right side of the AppBar
         actions: [
@@ -100,7 +101,10 @@ class HomeScreen extends StatelessWidget {
               icon: Icons.people,
               label: 'Consultar dados',
               onTap: () {
-                // TODO: Navigate to Client List screen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ClientListScreen()),
+                );
               },
             ),
             _MenuButton(
